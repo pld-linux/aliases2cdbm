@@ -5,10 +5,10 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://www.pobox.com/~jmknoble/software/aliases2cdbm/%{name}-%{version}.tar.gz
+Source0:	http://www.jmknoble.net/software/aliases2cdbm/%{name}-%{version}.tar.gz
 # Source0-md5:	1408c1f17db44045b9b37e2c6ec6a4a7
 Patch0:		%{name}-tolower.patch
-URL:		http://www.pobox.com/~jmknoble/software/
+URL:		http://www.jmknoble.net/software/aliases2cdbm/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
