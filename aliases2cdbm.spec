@@ -1,6 +1,6 @@
 Summary:	Convert mail aliases into input suitable for cdbmake
 Summary(pl):	Konwerter aliasów pocztowych na wej¶cie dla cdbmake
-Name:		aliases2cdbm 
+Name:		aliases2cdbm
 Version:	1.0
 Release:	1
 License:	GPL
@@ -29,7 +29,7 @@ informacji o pakiecie cdb D. J. Bernsteina, w tym o cdbmake).
 
 %prep
 %setup -q
-%patch0 -p1 
+%patch0 -p1
 
 %build
 %{__make} OPTFLAGS="%{rpmcflags}" PREFIX="%{_prefix}"
@@ -42,7 +42,7 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_sbindir},%{_mandir}/man1}
 install aliases2cdbm 		$RPM_BUILD_ROOT%{_bindir}
 #install	exim.newaliases.cdb	$RPM_BUILD_ROOT%{_sbindir}
 install aliases2cdbm.1		$RPM_BUILD_ROOT%{_mandir}/man1
-                                                                                   
+
 gzip -9nf README aliases.sample aliases.warnings
 
 %clean
@@ -50,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz 
+%doc *.gz
 %attr(0755,root,root) %{_bindir}/aliases2cdbm
 %attr(0444,root,root) %{_mandir}/man1/*
 #%attr(0644,root,root) %{_sysconfdir}/aliases.conf
