@@ -43,14 +43,12 @@ install aliases2cdbm 		$RPM_BUILD_ROOT%{_bindir}
 #install	exim.newaliases.cdb	$RPM_BUILD_ROOT%{_sbindir}
 install aliases2cdbm.1		$RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf README aliases.sample aliases.warnings
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README aliases.sample aliases.warnings
 %attr(0755,root,root) %{_bindir}/aliases2cdbm
 %attr(0444,root,root) %{_mandir}/man1/*
 #%attr(0644,root,root) %{_sysconfdir}/aliases.conf
