@@ -25,7 +25,7 @@ Aliases2cdbm to narzêdzie do konwersji aliasów pocztowych z pliku
 tekstowego (np. /etc/mail/aliases) na postaæ odpowiedni± jako wej¶cie
 narzêdzia cdbmake. cdbmake mo¿e tworzyæ sta³± bazê danych (CDB)
 odpowiedni± do pewnego i szybkiego wyszukiwania aliasów (pod adresem
-ftp://koobera.math.uic.edu/www/cdb.html znajeduje siê wiêcej
+ftp://koobera.math.uic.edu/www/cdb.html znajduje siê wiêcej
 informacji o pakiecie cdb D. J. Bernsteina, w tym o cdbmake).
 
 %prep
