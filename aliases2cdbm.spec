@@ -11,7 +11,6 @@ Patch0:		%{name}-tolower.patch
 URL:		http://www.jmknoble.net/software/aliases2cdbm/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 `Aliases2cdbm' is a utility for converting mail aliases from a text
 file (e.g., /etc/mail/aliases) into input suitable for the `cdbmake'
