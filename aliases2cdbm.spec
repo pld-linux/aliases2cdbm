@@ -1,5 +1,5 @@
 Summary:	Convert mail aliases into input suitable for cdbmake
-Summary(pl):	Konwerter aliasów pocztowych na wej¶cie dla cdbmake
+Summary(pl.UTF-8):   Konwerter aliasÃ³w pocztowych na wejÅ›cie dla cdbmake
 Name:		aliases2cdbm
 Version:	1.0
 Release:	1
@@ -19,12 +19,12 @@ for reliable, high-speed mail alias lookups (see
 <ftp://koobera.math.uic.edu/www/cdb.html> for more information about
 D.J. Bernstein's cdb package, which includes cdbmake).
 
-%description -l pl
-Aliases2cdbm to narzêdzie do konwersji aliasów pocztowych z pliku
-tekstowego (np. /etc/mail/aliases) na postaæ odpowiedni± jako wej¶cie
-narzêdzia cdbmake. cdbmake mo¿e tworzyæ sta³± bazê danych (CDB)
-odpowiedni± do pewnego i szybkiego wyszukiwania aliasów (pod adresem
-ftp://koobera.math.uic.edu/www/cdb.html znajduje siê wiêcej
+%description -l pl.UTF-8
+Aliases2cdbm to narzÄ™dzie do konwersji aliasÃ³w pocztowych z pliku
+tekstowego (np. /etc/mail/aliases) na postaÄ‡ odpowiedniÄ… jako wejÅ›cie
+narzÄ™dzia cdbmake. cdbmake moÅ¼e tworzyÄ‡ staÅ‚Ä… bazÄ™ danych (CDB)
+odpowiedniÄ… do pewnego i szybkiego wyszukiwania aliasÃ³w (pod adresem
+ftp://koobera.math.uic.edu/www/cdb.html znajduje siÄ™ wiÄ™cej
 informacji o pakiecie cdb D. J. Bernsteina, w tym o cdbmake).
 
 %prep
