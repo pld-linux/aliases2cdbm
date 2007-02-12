@@ -1,5 +1,5 @@
 Summary:	Convert mail aliases into input suitable for cdbmake
-Summary(pl.UTF-8):   Konwerter aliasów pocztowych na wejście dla cdbmake
+Summary(pl.UTF-8):	Konwerter aliasów pocztowych na wejście dla cdbmake
 Name:		aliases2cdbm
 Version:	1.0
 Release:	1
