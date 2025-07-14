@@ -29,7 +29,7 @@ informacji o pakiecie cdb D. J. Bernsteina, w tym o cdbmake).
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} OPTFLAGS="%{rpmcflags}" PREFIX="%{_prefix}"
